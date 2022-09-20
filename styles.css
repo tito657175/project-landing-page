@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
 .main-background-boxes {
     display:flex;
     flex-direction: column;
@@ -6,7 +11,20 @@
 .header {
     background-color: #1f2937;
     display:flex;
+    justify-content:space-between;
+    align-content: center;
+    padding: 1em;
+    
 }
+#logo-and-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+
 
 .information-2 {
     display:flex;
