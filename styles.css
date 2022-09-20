@@ -76,6 +76,25 @@ button {
     max-width: 300px;
 }
 
+.information-1 {
+    color:#1F2937;
+    font-weight:bolder;
+    font-size: 36px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#image-with-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pugs {
+    height: 100px;
+    width: 100px;
+}
+
 .information-2 {
     display:flex;
     flex-direction: column;
