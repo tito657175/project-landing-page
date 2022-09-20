@@ -82,20 +82,26 @@ button {
     font-size: 36px;
 
     display:flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images-with-description {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
-#image-with-description {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.different-pugs {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
 }
-.pugs {
+.pug-pics {
     height: 100px;
     width: 100px;
 }
 
-.information-2 {
+.information-3 {
     display:flex;
     flex-direction: column;
     justify-content: center;
